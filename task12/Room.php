@@ -16,12 +16,14 @@ class Room
 
     public function addMan()
     {
-        If ($this->door == 0) $this->people++;
+        If ($this->door == 0) ;
+        else $this->people++;
     }
 
     public function deleteMan()
     {
-        if ( $this->door == 0) $this->people--;
+        if ( $this->door == 0) echo 'нет дверей'.'<br>';
+            else $this->people--;
     }
     public function getSostoyanie()
     {

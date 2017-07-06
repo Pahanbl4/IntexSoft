@@ -2,14 +2,14 @@
 class Flat
 {
     public $rooms = [];
-//
+
 //    /**
 //     * Flat constructor.
 //     * @param array $rooms
 //     */
 //    public function __construct(array $rooms)
 //    {
-//        $this->rooms = $rooms;
+//        $this->rooms[] = $rooms;
 //    }
 
 
